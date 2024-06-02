@@ -16,9 +16,9 @@ spec:
         image: postgres:latest
         env:
         - name: POSTGRES_DB
-          value: "bz_coworking_db"
+          value: "wd_coworking_db"
         - name: POSTGRES_USER
-          value: "bz_user"
+          value: "wd_user"
         - name: POSTGRES_PASSWORD
           value: "12345678"
         ports:
