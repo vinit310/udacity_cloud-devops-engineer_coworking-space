@@ -8,7 +8,7 @@ USER root
 ENV DB_USERNAME=wd_user
 ENV DB_PASSWORD=12345678
 ENV DB_HOST=127.0.0.1
-ENV DB_PORT=5434
+ENV DB_PORT=5433
 ENV DB_NAME=wd_coworking_db
 
 COPY ./analytics .
@@ -20,10 +20,10 @@ RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
 
 
-# EXPOSE 5158
+EXPOSE 5153
 
 # Start the Flask application
-CMD python app.py
+CMD ["python", "./app.py"]
 
 
 
