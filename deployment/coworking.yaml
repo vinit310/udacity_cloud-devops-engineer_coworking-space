@@ -47,6 +47,8 @@ spec:
         envFrom:
         - configMapRef:
             name: postgresql-config-map
+        - secretRef:
+            name: postgresql-secret
         env:
         - name: DB_HOST
           valueFrom:
