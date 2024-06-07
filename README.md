@@ -19,3 +19,5 @@ The Coworking Space Service is a set of APIs that enables users to request one-t
 
 5. Setup CloudWatch Logging
 - Use Logs feature in AWS CloudWatch
+
+~ Authored by wendigo ~
